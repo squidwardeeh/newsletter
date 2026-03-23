@@ -1525,7 +1525,7 @@ function DigestPage({ digest, tab, onPrev, onNext, hasPrev, hasNext,
     ? 'linear-gradient(135deg, #7c2d12 0%, #c2410c 100%)'
     : 'linear-gradient(135deg, #064e3b 0%, #065f46 60%, #047857 100%)';
   const label = tab === 'AI' ? 'DAILY AI DIGEST' : tab === '마케팅' ? 'DAILY MARKETING DIGEST' : tab === '부동산' ? 'DAILY REALESTATE DIGEST' : 'DAILY ECONOMY DIGEST';
-  const unit  = tab === 'AI' ? 'AI 인사이트' : tab === '마케팅' ? '마케팅 인사이트' : tab === '부동산' ? '부동산 인사이트' : '경제 인사이트';
+  const unit  = '인사이트';
 
   const navBtnStyle = (disabled) => ({
     width: 40, height: 40, borderRadius: 10,
